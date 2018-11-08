@@ -1,0 +1,56 @@
+/* Basic style sheet for use with Linvio eStore Lite pages */
+
+/* mini store landing page */
+.pc_product_name {
+    font-size:12px;
+    font-weight: bold;
+}
+
+.pc_product_description {
+    margin-bottom:5px;
+}
+
+.pc_product_pic {
+    width: 100px;
+}
+
+
+.pc_qty_input_field {
+    width:50px;
+} 
+
+
+.pc_custom_fields_table input[type="checkbox"] {
+    margin-right:4px;
+    }
+
+.pc_coupon_code_table {
+   margin-top: 10px;
+}
+.pc_coupon_code_table td {
+  padding:2px;
+}
+
+.pc_page_content table {
+	border-collapse:collapse;
+}
+
+/* Social Media Links - default orientation is inline */
+.estore_social_links {
+	height:22px;
+	margin-top:20px;
+	}
+.estore_social_links .facebook-share {
+	float:left;
+}
+.estore_social_links .twitter-share {
+	float:left;
+}
+.estore_social_links .linkedin-share {
+	float:left;
+}
+
+/* FancyZoom shadow boxes */
+#ShadowBox table tr th, #ShadowBox table tr td {
+    padding:0px;  
+}

@@ -1,0 +1,29 @@
+/* PaymentConnect Trust Logo Styling */
+#pc_trust_logo {
+	margin-top:20px;
+}
+#pc_trust_authorize_net {
+	width:125px;
+	height:103px;
+	background-image: url("../images/trust/trust_authnet.png");
+}
+#pc_trust_paypal {
+	width:100px;
+	height:100px;
+	background-image: url("../images/trust/trust_paypal.png");
+}
+#pc_trust_eway {
+	width:150px;
+	height:87px;
+	background-image: url("../images/trust/trust_eway.jpg");
+}
+#pc_trust_google {
+	width:303px;
+	height:239px;
+	background-image: url("../images/trust/trust_google_checkout.gif");
+}
+#pc_trust_worldpay {
+	width:160px;
+	height:92px;
+	background-image: url("../images/trust/trust_worldpay3.jpg");
+}

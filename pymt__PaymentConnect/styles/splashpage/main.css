@@ -1,0 +1,41 @@
+/* PaymentConnect Splashpage */
+body {
+    font-family: calibri,trebuchet MS, Verdana, Geneva;
+    background:white;
+    background-image: url("splashBackground.png");
+    background-repeat:no-repeat;
+	
+}
+.icon_fb {
+    background-image: url("facebook.png");	
+	height:48px;
+	width:48px;
+}
+.icon_twitter {
+    background-image: url("twitter.png");	
+	height:48px;
+	width:48px;
+}
+
+.icon_google {
+    background-image: url("google.png");	
+	height:48px;
+	width:48px;
+}
+.icon_linkedin {
+    background-image: url("linkedin.png");	
+	height:48px;
+	width:48px;
+}
+.icon_youtube {
+    background-image: url("youtube.png");	
+	height:48px;
+	width:48px;
+}
+
+a:link {
+	color: #FF0000;
+	}
+a:visited {
+	color: #FF0000;
+	}

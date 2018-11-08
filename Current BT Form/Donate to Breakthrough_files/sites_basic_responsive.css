@@ -1,0 +1,87 @@
+/* -------------------------------------------------- */
+/* Responsive styling for PaymentConnect Sites pages  */
+/* Can be used in conjunction with sites_basic.css    */
+/* Collapses responsive forms and tables when pages   */
+/* are viewed on smaller devices                      */ 
+/* Updated 6/01/2015                                  */
+/* -------------------------------------------------- */
+
+
+@media all and (max-width: 500px) {
+    .pc_button_container {
+        padding-left:0px;
+    }    
+    input[type="submit"], input[type="button"] {
+    	width:100%;
+    }
+    .pc_flex_form_line_container {
+        -webkit-flex-flow: row wrap;
+        flex-flow: row wrap;
+    }
+    .pc_flex_form_label_item {
+       text-align:left;
+       -ms-flex: 0 0 auto;
+       -webkit-flex: 0 0 auto;
+       flex: 0 0 auto;
+    }
+    .pc_flex_form_required_flag_item {
+       text-align:left;
+       -ms-flex: 1 1 25px;
+       -webkit-flex: 1 1 25px;
+       flex: 1 1 25px;
+    }    
+    .pc_flex_form_field_item {
+        width:100%;
+        -webkit-flex: 1 1 100%;
+    }
+    .pc_flex_form_field_item .pc_short_input_field {
+        width:100%;
+    }
+    .pc_flex_form_field_item .pc_medium_input_field {
+        width:100%;
+    }
+    .pc_flex_form_field_item .pc_long_input_field {
+        width:100%;
+    }
+
+    .pc_flex_form input {
+   /*        font-size:1.2em; */
+    }
+    .pc_flex_form select {
+  /*      font-size:1.2em;  */
+    }
+    .pc_button_container input[type="button"], .pc_button_container input[type="submit"] {
+        font-size:1.2em;
+    }
+    .pc_flex_form_field_item fieldset table[role="presentation"] {
+        font-size:1.2em;
+    }
+    .addressBlock {float:none;width:100%;text-align:center;}
+    .poweredBy {float:none;width:100%;text-align:center;}
+
+   /* pc_flex_imagedetailtable */
+   .pc_flex_imagedetailtable_line_container {
+       -webkit-flex-flow: row wrap;
+       flex-flow: row wrap;
+   }
+   .pc_flex_imagedetailtable_image_item {
+      text-align:left;
+      -ms-flex: 0 0 auto;
+      -webkit-flex: 0 0 auto;
+      flex: 0 0 auto;
+   }
+   .pc_flex_imagedetailtable_detail_item {
+       width:100%;
+       -webkit-flex: 1 1 100%;
+   }
+
+   /* CSS-styled buttons */
+.pc_button_container .css-button,
+.pc_button_container .css-button-active,
+.pc_button_container .css-button-disabled {
+   width:100%;
+   margin-right:0px;
+   margin-bottom:5px;
+}
+
+}

@@ -1,0 +1,235 @@
+/* -------------------------------------------------- */
+/* Default style sheet for PaymentConnect Sites pages */
+/* Updated 3/6/2010                                   */
+/* -------------------------------------------------- */
+
+body {
+    /* background:#c0c0c0; */
+    font-size:100%;
+    font-family: 'Verdana','Geneva',sans-serif;
+}
+h1 {color:#585858;font-size:1.2em;
+
+}
+h2 {color:#585858;font-size:1em;margin-bottom:10px;}
+
+p, label, td, th{
+    font-size: .85em;
+    }
+
+.pc_frame {
+    border:solid 1px white;
+    background:white;
+    width:700px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:2px;
+    margin-bottom:0px;
+}
+.pc_frame_inner {
+    margin:0px;
+}
+
+.pc_frame .message {
+	border: 1px solid #e8e8e8;
+	padding: 4px;
+}
+
+.pc_frame .messageCell h4 {
+	display:inline;
+	
+}
+
+.pc_frame .errorM3 .msgIcon {
+	margin-right:4px;
+	background-image: url(/img/msg_icons/error24.png);
+	background-position: 0px 0px;
+	width: 24px;
+	height: 24px;
+}
+
+.pc_frame .infoM3 .msgIcon {
+	margin-right:4px;
+	background-image: url(/img/msg_icons/info24.png);
+	background-position: 0px 0px;
+	width: 24px;
+	height: 24px;
+}
+
+.pc_frame .confirmM3 .msgIcon {
+	margin-right:4px;
+	background-image: url(/img/msg_icons/confirm24.png);
+	background-position: 0px 0px;
+	width: 24px;
+	height: 24px;
+}
+
+.pc_frame .warningM3 .msgIcon {
+	margin-right:4px;
+	background-image: url(/img/msg_icons/warning24.png);
+	background-position: 0px 0px;
+	width: 24px;
+	height: 24px;
+}
+
+.pc_frame_top {
+    height:50px;
+}
+
+.pc_page_content {
+    }
+    
+.pc_page_content_inner {
+    margin:25px 25px 25px 25px;
+    
+}
+    
+.pc_long_input_field {
+    width:250px;
+}
+
+.pc_short_input_field {
+    width:75px;
+}
+
+.pc_opp_line_item_table {
+    width:100%;
+}
+
+.pc_opp_line_item .table_headings {
+    visibility:display;
+}
+
+.pc_cart_item_table th{
+    color:#cecece;
+    text-align:left;
+}
+
+.pc_quote_amount_box {
+    margin:2px;
+    padding:4px;
+    border: thin solid #e0e0e0;
+}
+
+.pc_cart_item_table {
+    width:100%;
+}
+
+.pc_cart_item_table th{
+    color:#cecece;
+    text-align:left;
+}
+
+.pc_cart_item .table_headings {
+    visibility:display;
+}
+
+.pc_frame .currency_column {
+    text-align:right;
+}
+
+
+img.requiredFieldMarker {
+    width:4px;
+    background-image: url({!URLFOR($Resource.pymt__PaymentConnect, 'images/required15.gif')}); 
+    /* background-image: url("{!URLFOR($Resource.pymt__PaymentConnect, 'images/required14.gif')}"); */
+    background-repeat: no-repeat;
+}
+
+.requiredFieldMarkerColumn {
+	width:4px;
+	}
+	
+.pc_button_panel_grid input[type="button"] {
+	margin-right:4px;
+}
+
+#pc_accepted_card_logos {
+    vertical-align:middle;
+   /* background-image: url("../images/credit_card_logos_30.gif"); */
+    height: 32px;
+    width:0px;
+    margin-left:8px; 
+}
+
+#pc_accepted_card_Visa {
+	vertical-align:middle;
+    background-image: url("../images/card_icons/32/Visa.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+}
+#pc_accepted_card_MasterCard {
+	vertical-align:middle;
+    background-image: url("../images/card_icons/32/MasterCard.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+}
+#pc_accepted_card_Amex {
+	vertical-align:middle;
+    background-image: url("../images/card_icons/32/AmericanExpress.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+}
+#pc_accepted_card_JCB {
+	vertical-align:middle;
+    background-image: url("../images/card_icons/32/JCB.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+}
+#pc_accepted_card_Discover {
+	vertical-align:middle;
+    background-image: url("../images/card_icons/32/Discover.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+}
+#pc_accepted_card_Maestro {
+	vertical-align:middle;
+    background-image: url("../images/card_icons/32/Maestro.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+}
+#pc_accepted_card_Solo {
+	vertical-align:middle;
+    background-image: url("../images/card_icons/32/Solo.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+
+}
+#pc_accepted_card_Diners_Club {
+	vertical-align:middle;
+    background-image: url("../images/card_icons/32/DinersClub.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+}
+
+#pc_cvv_icon {
+	vertical-align:middle;
+    background-image: url("../images/card_icons/32/backOfCard.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+}
+
+.requiredFieldMarkerColumn {
+	width:4px;
+	}
+
+
+img.requiredFieldMarker {
+  width:5px;
+  height:15px;
+  background-image: url("../images/required10.gif");
+}
+
+img.optionalFieldMarker {
+  width:5px;
+}
+

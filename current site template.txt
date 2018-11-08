@@ -1,0 +1,121 @@
+<apex:page showHeader="false" id="SiteTemplate" standardStylesheets="false" language="{!$CurrentPage.Parameters.lang}">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+                
+        <meta name="google-site-verification" content="CZveC9XccVvBUPLVxQqHkOFSfMbygYS6QHUwIGWCtP0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0" />
+
+        <link rel="shortcut icon" href="https://www.breakthrough.org/site/templates/assets/img/apple-touch-icon.png?v=1" />
+        <link rel="apple-touch-icon" href="https://www.breakthrough.org/site/templates/assets/img/apple-touch-icon-144x144-precomposed.png?v=1" />
+
+
+        <link rel="stylesheet" href="//cloud.typography.com/6800852/662602/css/fonts.css" />
+        <link rel="stylesheet" href="https://www.breakthrough.org/site/templates/assets/css/application.css" />
+        <script src="https://www.breakthrough.org/site/templates/assets/js/vendor/modernizr-2.6.2.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="{!URLFOR($Resource.dn8n__LinvioDonations,'styles/sites_basic.css')}" />
+<link rel="stylesheet" type="text/css" href="{!URLFOR($Resource.eslt__eStoreLiteResources,'styles/sites_basic.css')}" />
+<link rel="stylesheet" type="text/css" href="{!URLFOR($Resource.pymt__PaymentConnect,'styles/sites_basic.css')}" />
+<link rel="stylesheet" type="text/css" href="{!URLFOR($Resource.pymt__PaymentConnect,'styles/sites_basic_responsive.css')}" />
+<link rel="stylesheet" type="text/css" href="{!URLFOR($Resource.pymt__PaymentConnect,'styles/trust_logos.css')}" />
+
+
+            
+    </head>
+    
+    <body class="template-salesforce">
+
+        <!--[if lt IE 8]>
+        <p class="outdated-browser-warning">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser to improve your experience.</p>
+        <![endif]-->
+                
+        <header id="top">
+        
+            <div class="wrap">
+                    
+                <h1 id="logo"><a href="http://www.breakthrough.org/" rel="home"><span>Breakthrough.org</span></a></h1>
+                
+                <a href="#main-navigation" id="toggle-main-navigation">
+                    <span class="icon-list"><span>Open Mobile Navigation</span></span>
+                    <span class="icon-cancel hidden"><span>Close Mobile Navigation</span></span>
+                </a>
+                
+                <nav id="main-navigation" role="sitemap">
+                    
+                    <ol>
+                        <li><a href="http://www.breakthrough.org/get-involved/">Get Involved</a></li>
+                        <li><a href="http://www.breakthrough.org/stories/">Stories</a></li>
+                        <li><a href="http://www.breakthrough.org/events/">Events</a></li>
+                        <li><a href="http://www.breakthrough.org/transparency/">Transparency</a></li>
+                        <li><a href="http://www.breakthrough.org/ways-to-give/">Ways to Give</a></li>
+                    </ol>
+    
+                    <ul>
+                        <!-- <li><a href="http://www.breakthrough.org/donate/" class="donate">Donate Now</a></li> -->
+                        <li><a href="http://www.facebook.com/breakthroughchicago" target="_blank"><span class="icon icon-facebook"><span>Facebook</span></span></a></li>
+                        <li><a href="http://www.twitter.com/brkthru" target="_blank"><span class="icon icon-twitter"><span>Twitter</span></span></a></li>
+                    </ul>
+                    
+                    <a href="#content" id="skip-to-content" title="Press enter to access main content.">Skip to Content (Press Enter)</a>
+    
+                </nav> <!-- end #main-navigation -->
+
+            </div>
+        
+        </header> <!-- end #top -->
+                        
+        <main id="content" role="main">     
+                    
+                <section class="wrap single-col">
+                
+                    <div class="main custom-forms">
+                    
+                        <apex:insert name="body"/>
+                    
+                     </div> <!-- end .main.custom-forms -->
+                    
+                </section>
+                                
+        </main> <!-- end #content -->
+        
+        <footer id="bottom" role="contentinfo">
+        
+            <p class="fineprint">&copy; BREAKTHROUGH MINISTRIES P.O. Box 47200 Chicago, IL 60647</p>
+            
+            <ul>
+                <li>Phone: 773.722.1144</li>
+                <li>Fax: 773.722.1434</li>
+                <li>Email: <a href="mailto:info@breakthrough.org">info@breakthrough.org</a></li>
+            </ul>
+            
+            <p class="credits">Site by <a href="http://www.hornallanderson.com" target="_blank">HADW</a> + <a href="http://www.ryanscherler.com" target="_blank">RS</a></p>
+       
+        </footer> <!-- end #bottom -->
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="https://www.breakthrough.org/site/templates/assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+        <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+        <script src="https://www.breakthrough.org/site/templates/assets/js/application.min.js"></script>
+
+        <script>
+        
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-605124-15']);
+            _gaq.push(['_trackPageview']);
+            
+            (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        
+        </script>
+            
+    </body>
+</html>
+
+</apex:page>

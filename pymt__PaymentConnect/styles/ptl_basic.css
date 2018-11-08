@@ -1,0 +1,481 @@
+/* ------------------------------------------------------------ */
+/* Basic style sheet for PaymentConnect Community portal pages  */
+/* Minimal styling, to simplify use with existing     			*/
+/* customer Sites style sheet(s)                      			*/ 
+/* Updated 08/24/2015                                  			*/
+/* -------------------------------------------------- 			*/
+
+.pc_page_content {
+
+}
+.rich-table-thead {
+	border:none;
+}
+
+.pc_page_content table {
+	border-collapse:collapse;
+}
+    
+.pc_page_content_inner {
+    
+}
+
+.pc_button_panel_grid {
+	white-space:nowrap;
+}
+    
+.pc_long_input_field {
+    width:250px;
+}
+
+.pc_short_input_field {
+    width:75px;
+}
+
+.pc_product_image {
+	width:120px;
+}
+
+
+.pc_opp_line_item .table_headings, .pc_cart_item .table_headings {
+    visibility:visible;
+}
+
+
+.pc_cart_item_table, .pc_opp_line_item_table, .pc_record_listing_table, .pc_payment_methods_table  {
+    width:100%;
+	border: 1px solid #e0e3ef;
+	border-collapse:collapse;
+}
+
+.pc_cart_item_table th, .pc_opp_line_item_table th, .pc_record_listing_table th, .pc_payment_methods_table th {
+	padding:5px;
+	background-color: #f2f3f3;
+	border: 1px solid #e0e3ef;
+    text-align:left;
+    vertical-align:top;
+}
+
+.pc_cart_item_table td, .pc_opp_line_item_table td, .pc_record_listing_table td, .pc_payment_methods_table td {
+	padding:5px;
+    text-align:left;
+    vertical-align:top;
+}
+
+
+.pc_record_listing_table tr:hover, .pc_opp_line_item_table tr:hover, .pc_cart_item_table tr:hover, .pc_payment_methods_table tr:hover {
+		background-color: #f0f8ff;
+}
+
+.pc_page_content h1 {
+	font-size:1.8em;
+	display:block;
+	margin-top:20px;
+	margin-bottom:10px;
+	
+}
+
+.pc_page_content h2 {
+	font-size:1.5em;
+	display:block;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+.pc_page_content .currency_column {
+    text-align:right;
+}
+
+.pc_page_content .labelColumn {
+    width:150px;
+    font-weight:normal;
+    text-align:right;
+    padding-right:6px;
+}
+
+.pc_quote_expiration {
+	margin-bottom:20px;
+}
+
+.pc_button_panel_grid input[type="button"] {
+	margin-right:4px;
+}
+
+td.itemDateColumn {
+	white-space:nowrap;
+	text-align:left;
+}
+
+#pc_accepted_card_logos {
+    vertical-align:middle;
+   /* background-image: url("../images/credit_card_logos_30.gif"); */
+    height: 32px;
+    width:0px;
+    margin-left:8px; 
+	background-repeat:no-repeat;
+}
+
+#pc_accepted_card_Visa {
+	vertical-align:middle;
+    background-image: url("../images/card_icons/32/Visa.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+	background-repeat:no-repeat;
+}
+#pc_accepted_card_MasterCard {
+	vertical-align:middle;
+    background-image: url("../images/card_icons/32/MasterCard.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+	background-repeat:no-repeat;
+}
+#pc_accepted_card_Amex {
+	vertical-align:middle;
+    background-image: url("../images/card_icons/32/AmericanExpress.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+	background-repeat:no-repeat;
+}
+#pc_accepted_card_JCB {
+	vertical-align:middle;
+    background-image: url("../images/card_icons/32/JCB.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+	background-repeat:no-repeat;
+}
+#pc_accepted_card_Discover {
+	vertical-align:middle;
+    background-image: url("../images/card_icons/32/Discover.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+	background-repeat:no-repeat;
+}
+#pc_accepted_card_Maestro {
+	vertical-align:middle;
+    background-image: url("../images/card_icons/32/Maestro.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+	background-repeat:no-repeat;
+}
+#pc_accepted_card_Solo {
+	vertical-align:middle;
+    background-image: url("../images/card_icons/32/Solo.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+	background-repeat:no-repeat;
+
+}
+#pc_accepted_card_DinersClub {
+	vertical-align:middle;
+    background-image: url("../images/card_icons/32/DinersClub.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+	background-repeat:no-repeat;
+}
+
+#pc_cvv_icon {
+	vertical-align:middle;
+    background-image: url("../images/mini_cvv2.gif");
+    height: 31px;
+    width:51px;
+    margin-left:4px;
+	background-repeat:no-repeat;
+}
+
+#pc_routing_number_img {
+	vertical-align:middle;
+    background-image: url("../images/blank_check_24x53.png");
+    height: 24px;
+    width:53px;
+    margin-left:4px;
+	background-repeat:no-repeat;
+}
+#pc_routing_number_tip {
+	vertical-align:middle;
+    background-image: url("../images/routing_number.gif");
+    height: 72px;
+    width:343px;
+	display:block;
+	background-repeat:no-repeat;
+}
+#pc_cvv_number_tip {
+
+}
+
+.requiredFieldMarkerColumn {
+	width:4px;
+	}
+
+img.requiredFieldMarker {
+  width:5px;
+  height:15px;
+  background-image: url("../images/required10.gif");
+  background-repeat: no-repeat;
+}
+
+img.optionalFieldMarker {
+  width:5px;
+}
+
+img.warning_icon_small {
+	width:16px;
+	background-image: url("../images/error.png");
+	background-repeat: no-repeat;
+}
+
+.payPalExpressCheckoutButton {
+  background: url("../images/express-checkout-paypal.png");
+  height: 40px;
+  width:160px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.address_heading {
+    font-weight:bold;
+    font-size:1.2em;
+    margin-top:10px;
+}
+
+/* Payment Method Widget */
+
+.payment_method_widget {
+  border:1px solid #a8a8a8; 
+  padding:0px;
+  border-radius:5px;
+  -moz-border-radius:5px;
+  -webkit-border-radius:5px;
+  margin-bottom:8px;
+}
+.payment_method_widget_body {
+  padding:5px;
+  border-top:1px solid #a8a8a8;
+}
+.payment_method_widget_header {
+    padding:8px;
+    background:#f8f8f8;
+    border-radius:5px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;    
+}
+
+img.expand_icon {
+  
+  float:right;
+  height:20px;
+  width:20px;
+  background-size: 20px 20px;
+  background-repeat: no-repeat;
+  background-image:  url("../images/Icon_Circle_MoreDown.png");
+}
+
+.payment_method_widget.expanded .payment_method_widget_header{
+    border-bottom-left-radius:0px;
+    border-bottom-right-radius:0px;
+    -moz-border-bottom-left-radius:0px;
+    -moz-border-bottom-right-radius:0px;
+    -webkit-border-bottom-left-radius:0px; 
+    -webkit-border-bottom-right-radius:0px; 
+}
+
+.pmt_method_details_container {
+    display: flex;
+    align-items: left;
+    flex-flow: row wrap;
+}
+.pmt_method_details_item {
+    padding:5px 10px 0px 5px;
+}
+
+/* Flex Form styling - form layout allowing collapsable labels and fields when browser viewport shrinks */
+input[type="submit"], input[type="button"] {
+    margin-bottom:8px;
+    margin-top:8px;
+}
+.pc_flex_form {
+    width:100%;
+
+}
+
+.pc_button_container {
+    margin-top:20px;
+    padding-left:180px;
+    display:-webkit-box;
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+    -webkit-flex-flow: row wrap;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+}
+.pc_flex_form_line_container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack:start;
+    -webkit-justify-content:flex-start;
+        -ms-flex-pack:start;
+            justify-content:flex-start;
+}
+.pc_flex_form_label_item {
+    padding:4px;
+    text-align:right;
+   -webkit-box-flex: 0;
+   -webkit-flex: 0 0 150px;
+       -ms-flex: 0 0 150px;
+           flex: 0 0 150px;
+}
+.pc_flex_form_required_flag_item {
+    padding:4px 0px 0px 0px;
+    text-align:center;
+   -webkit-box-flex: 0;
+   -webkit-flex: 0 0 20px;
+       -ms-flex: 0 0 20px;
+           flex: 0 0 20px;
+}
+
+.pc_flex_form_field_item {
+    padding:4px;
+    -webkit-box-flex: 4;
+    -webkit-flex: 4 4 auto;
+        -ms-flex: 4 4 auto;
+            flex: 4 4 auto;
+}
+
+.pc_flex_form_field_item fieldset table {
+    margin:0px;
+}
+.pc_flex_form_field_item fieldset table td {
+    padding:0px 5px 0px 0px;
+}
+/* flex styling for pc_flex_imagedetailtable (tables with a thumbnail or small image in the left column and details in the right) */
+.pc_flex_imagedetailtable {
+    width:100%;
+
+}
+
+.pc_flex_imagedetailtable_line_container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    -webkit-box-pack:start;
+    -webkit-justify-content:flex-start;
+        -ms-flex-pack:start;
+            justify-content:flex-start;
+}
+.pc_flex_imagedetailtable_image_item {
+    padding:4px;
+    text-align:left;
+   -webkit-box-flex: 0;
+   -webkit-flex: 0 0 auto;  /* was 150px */
+       -ms-flex: 0 0 auto;
+           flex: 0 0 auto;
+}
+
+.pc_flex_imagedetailtable_detail_item {
+    padding:4px;
+    -webkit-box-flex: 4;
+    -webkit-flex: 4 4 auto;
+        -ms-flex: 4 4 auto;
+            flex: 4 4 auto;
+}
+
+/* css buttons */
+.css-button, .css-button-disabled, .css-button-active {
+  background: #d7d9db;
+  background-image: -webkit-linear-gradient(top, #d7d9db, #cccccc);
+  background-image: -moz-linear-gradient(top, #d7d9db, #cccccc);
+  background-image: -ms-linear-gradient(top, #d7d9db, #cccccc);
+  background-image: -o-linear-gradient(top, #d7d9db, #cccccc);
+  background-image: linear-gradient(to bottom, #d7d9db, #cccccc);
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #595959;
+  font-size: 100%;
+  padding: 10px 14px 10px 14px;
+  border: solid #c9c9c9 2px;
+  text-decoration: none;
+  text-align:center;
+  vertical-align: middle;
+  border: 1px;
+}
+
+.css-button-disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.css-button:hover, css-button-disabled:hover, css-button-active:hover {
+  background: #eaeced;
+  background-image: -webkit-linear-gradient(top, #eaeced, #d4d4d4);
+  background-image: -moz-linear-gradient(top, #eaeced, #d4d4d4);
+  background-image: -ms-linear-gradient(top, #eaeced, #d4d4d4);
+  background-image: -o-linear-gradient(top, #eaeced, #d4d4d4);
+  background-image: linear-gradient(to bottom, #eaeced, #d4d4d4);
+  text-decoration: none;
+}
+
+/* qualifiers for css-button, css-button-disabled, css-button-active  (e.g. class="css-button btn-xsmall") */
+.btn-xsmall {
+    font-size: 70%;
+    padding: 5px 10px 5px 10px;
+}
+
+.btn-small {
+    font-size: 85%;
+    padding: 8px 12px 8px 12px;
+}
+
+.btn-large {
+    font-size: 110%;
+    padding: 12px 20px 12px 20px;
+}
+
+.btn-xlarge {
+    font-size: 125%;
+    padding: 14px 24px 14px 24px;
+}
+
+.pc_button_container .css-button,
+.pc_button_container .css-button-disabled,
+.pc_button_container .css-button-active {
+   margin-right:5px;
+   margin-bottom:5px;
+}
+
+.pc_button_container_spinner {
+	/* background-image: url("../images/icon_spinner_bars.gif"); */
+	background-image: url("../images/icon_spinner_circles.gif");
+	background-size:25px 25px;
+	height:25px;
+	width:25px;
+}
+.pc_button_spinner_panel {
+	vertical-align:middle;
+}
+
+/* HTML5 Validation fall back script - uses this css to show invalid fields */
+.invalid input:required:invalid {
+    background: #FFE0A1;
+}
+
+.invalid input:required:valid {
+    background: #ffffff;
+}

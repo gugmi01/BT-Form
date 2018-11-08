@@ -1,0 +1,97 @@
+/* JQuery Mobile Themes + Linvio css tweaks
+   */
+@import url('JQueryThemes.css');
+
+/* Allows the use of Font Awesome icons in the header instead of
+   the default JQuery mobile UI icons */
+.fawe-icon-hdr-link {
+	color:white !important;
+	border-style:none !important;
+	text-shadow:none !important;
+	padding:4px !important;
+    text-align:center !important;
+	background:transparent !important;
+}  
+.fawe-icon-hdr-link i {
+    width:2em !important;
+}
+
+#pc_accepted_card_Visa {
+	vertical-align:middle;
+    background-image: url("images/card_icons/32/Visa.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+	background-repeat:no-repeat;
+}
+#pc_accepted_card_MasterCard {
+	vertical-align:middle;
+    background-image: url("images/card_icons/32/MasterCard.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+	background-repeat:no-repeat;
+}
+#pc_accepted_card_Amex {
+	vertical-align:middle;
+    background-image: url("images/card_icons/32/AmericanExpress.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+	background-repeat:no-repeat;
+}
+#pc_accepted_card_JCB {
+	vertical-align:middle;
+    background-image: url("images/card_icons/32/JCB.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+	background-repeat:no-repeat;
+}
+#pc_accepted_card_Discover {
+	vertical-align:middle;
+    background-image: url("images/card_icons/32/Discover.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+	background-repeat:no-repeat;
+}
+#pc_accepted_card_Maestro {
+	vertical-align:middle;
+    background-image: url("images/card_icons/32/Maestro.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+	background-repeat:no-repeat;
+}
+#pc_accepted_card_Solo {
+	vertical-align:middle;
+    background-image: url("images/card_icons/32/Solo.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+	background-repeat:no-repeat;
+
+}
+#pc_accepted_card_DinersClub {
+	vertical-align:middle;
+    background-image: url("images/card_icons/32/DinersClub.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+	background-repeat:no-repeat;
+}
+#pc_accepted_card_PayPal {
+    vertical-align:middle;
+    background-image: url("images/card_icons/32/PayPal.png");
+    height: 32px;
+    width:32px;
+    margin-left:4px;
+    background-repeat:no-repeat;
+}
+#mb_page_banner {
+    text-align:center;margin:0px;display:block;
+}
+#mb_page_banner_content {
+    position:absolute;left:0;right:0;background:#696969;color:white;
+}

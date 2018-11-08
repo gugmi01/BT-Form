@@ -1,0 +1,64 @@
+/* css buttons */
+.css-button, .css-button-disabled, .css-button-active {
+  background: #d7d9db;
+  background-image: -webkit-linear-gradient(top, #d7d9db, #cccccc);
+  background-image: -moz-linear-gradient(top, #d7d9db, #cccccc);
+  background-image: -ms-linear-gradient(top, #d7d9db, #cccccc);
+  background-image: -o-linear-gradient(top, #d7d9db, #cccccc);
+  background-image: linear-gradient(to bottom, #d7d9db, #cccccc);
+  -webkit-border-radius: 4;
+  -moz-border-radius: 4;
+  border-radius: 4px;
+  font-family: Arial;
+  color: #595959;
+  font-size: 100%;
+  padding: 10px 14px 10px 14px;
+  border: solid #c9c9c9 2px;
+  text-decoration: none;
+  text-align:center;
+  vertical-align: middle;
+  border: 1px;
+}
+
+.css-button-disabled {
+  opacity: 0.65;
+  cursor: not-allowed;
+}
+
+.css-button:hover, css-button-disabled:hover, css-button-active:hover {
+  background: #eaeced;
+  background-image: -webkit-linear-gradient(top, #eaeced, #d4d4d4);
+  background-image: -moz-linear-gradient(top, #eaeced, #d4d4d4);
+  background-image: -ms-linear-gradient(top, #eaeced, #d4d4d4);
+  background-image: -o-linear-gradient(top, #eaeced, #d4d4d4);
+  background-image: linear-gradient(to bottom, #eaeced, #d4d4d4);
+  text-decoration: none;
+}
+
+/* qualifiers for css-button, css-button-disabled, css-button-active  (e.g. class="css-button btn-xsmall") */
+.btn-xsmall {
+    font-size: 70%;
+    padding: 5px 10px 5px 10px;
+}
+
+.btn-small {
+    font-size: 85%;
+    padding: 8px 12px 8px 12px;
+}
+
+.btn-large {
+    font-size: 110%;
+    padding: 12px 20px 12px 20px;
+}
+
+.btn-xlarge {
+    font-size: 125%;
+    padding: 14px 24px 14px 24px;
+}
+
+.pc_button_container .css-button,
+.pc_button_container .css-button-disabled,
+.pc_button_container .css-button-active {
+   margin-right:5px;
+   margin-bottom:5px;
+}
