@@ -21,13 +21,22 @@
 
 }
 
+.hideNow{
+  position: absolute;
+  top: 0px;
+  display: none !important;
+}
+#j_id0:SiteTemplate:pc_donation_form:donationInputFieldVert{
+  display: none !important;
+}
+
 #content .wrap.single-col .main{
   margin-left: unset !important;
 }
 
-#pc_contact_info table tbody tr{
+/* #pc_contact_info table tbody tr{
   display: inline-block;
-}
+} */
 
 #content .wrap .main{
   max-width: none !important;
@@ -42,6 +51,12 @@ table.cmpgn_donation_table td.labelColumn{
     width: 45%;
     display: inline-block;
 
+}
+tr:nth-child(7) label{
+
+  -webkit-transition:  0.3s ease-in-out;
+  -o-transition:  0.3s ease-in-out;
+  transition:  0.3s ease-in-out;
 }
 
 select{
@@ -79,9 +94,9 @@ table.pc_donation_option_list_vert tr{
   padding: 2% !important;
 }
 
-table.pc_donation_option_list_vert tr:last-child {
+/* table.pc_donation_option_list_vert tr:last-child {
   display: block;
-}
+} */
 
 .custom-forms form table input:checked + label {
     background-color: rgb(252,184,19) !important;
@@ -89,6 +104,12 @@ table.pc_donation_option_list_vert tr:last-child {
     -o-transition: transform 0.3s ease-in-out;
     transition: transform 0.3s ease-in-out;
 }
+
+.custom-forms form table{
+  width: 90%;
+}
+
+
 
 
 @media screen and (max-width: 600px){
