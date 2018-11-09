@@ -1,130 +1,183 @@
 /* Basic style sheet for use with Linvio Donations add-on pages */
-
 /* Updated form styles */
 .custom-forms form table label {
-    /* display: inline-block; */
-    border-radius: 2px;
-    cursor: pointer;
-    display: inline-block;
-    font-size: 15px !important;
-    padding: 14px 40px 14px 40px !important;
-    color: #ffffff !important;
-    background-color: rgb(141,198,63) !important;
-    border-color: #8dc63f !important
-    font-weight: 600 !important;
-    font-family: 'Gotham Black','Roboto', sans-serif !important;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    -webkit-transition: 0.3s ease-in-out;
-    -o-transition:  0.3s ease-in-out;
-    transition:  0.3s ease-in-out;
-
+  /* display: inline-block; */
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 15px !important;
+  padding: 1.7em 3em !important;
+  color: #ffffff !important;
+  background-color: rgb(141, 198, 63) !important;
+  border-color: #8dc63f !important font-weight: 600 !important;
+  font-family: 'Gotham Black', 'Roboto', sans-serif !important;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+#bottom ul li{
+  float: none !important;
+  margin-right: 0;
 }
 
-.hideNow{
+#top #logo {
+  width: 30.0414591902%;
+}
+
+
+
+.custom-forms form table label:hover{
+  opacity: .75;
+}
+
+.bbutton {
+    margin-top: 3%;
+    float: right;
+    margin-right: 5%;
+}
+.hideNow {
   position: absolute;
   top: 0px;
   display: none !important;
 }
-#j_id0:SiteTemplate:pc_donation_form:donationInputFieldVert{
+
+#j_id0:SiteTemplate:pc_donation_form:donationInputFieldVert {
   display: none !important;
 }
 
-#content .wrap.single-col .main{
+#content .wrap.single-col .main {
   margin-left: unset !important;
 }
 
 /* #pc_contact_info table tbody tr{
   display: inline-block;
 } */
-
-#content .wrap .main{
+#content .wrap .main {
   max-width: none !important;
   width: 100%;
 }
 
-table.cmpgn_donation_table td.labelColumn{
+table.cmpgn_donation_table td.labelColumn {
   width: 0px !important;
 }
 
-#pc_contact_mailing_and_shipping_fields, #pc_custom_fields{
-    width: 45%;
-    display: inline-block;
-
-}
-tr:nth-child(7) label{
-
-  -webkit-transition:  0.3s ease-in-out;
-  -o-transition:  0.3s ease-in-out;
-  transition:  0.3s ease-in-out;
+#pc_contact_mailing_and_shipping_fields, #pc_custom_fields {
+  width: 45%;
+  display: inline-block;
+  margin-right: 2%;
 }
 
-select{
-   clear: both;
-   width: 100%;
-   background: #eee;
-   margin-bottom: 1em;
-   font-size: 1em;
-   height: 2.4em;
-   color: #666;
-   -o-transition: .1s ease-out;
-   -ms-transition: .1s ease-out;
-   -moz-transition: .1s ease-out;
-   -webkit-transition: .1s ease-out;
-   transition: .1s ease-out;
-   cursor: pointer;
+tr:nth-child(7) label {
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
+select {
+  clear: both;
+  width: 100%;
+  background: #eee;
+  margin-bottom: 1em;
+  font-size: 1em;
+  height: 2.4em;
+  color: #666;
+  -o-transition: .1s ease-out;
+  -ms-transition: .1s ease-out;
+  -moz-transition: .1s ease-out;
+  -webkit-transition: .1s ease-out;
+  transition: .1s ease-out;
+  cursor: pointer;
+}
 
-table.pc_donation_option_list_vert tbody tr td input{
+table.pc_donation_option_list_vert tbody tr td input {
   display: none !important;
-  -webkit-transition:  0.3s ease-in-out;
-  -o-transition:  0.3s ease-in-out;
-  transition:  0.3s ease-in-out;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
 }
 
-
+#main-navigation {
+  display: none !important;
+}
 
 .custom-forms form table label:hover {
   background-color: rgb(128, 185, 50)
 }
 
-table.pc_donation_option_list_vert tr{
+table.pc_donation_option_list_vert tr {
   display: inline-block;
-  padding: 2% !important;
+  padding: .5% !important;
 }
 
-/* table.pc_donation_option_list_vert tr:last-child {
-  display: block;
-} */
-
-.custom-forms form table input:checked + label {
-    background-color: rgb(252,184,19) !important;
-    -webkit-transition: transform 0.3s ease-in-out;
-    -o-transition: transform 0.3s ease-in-out;
-    transition: transform 0.3s ease-in-out;
+fieldset {
+  text-align: center;
 }
 
-.custom-forms form table{
-  width: 90%;
+footer {
+  text-align: center;
 }
 
+.custom-forms form table input:checked+label {
+  background-color: rgb(252, 184, 19) !important;
+  -webkit-transition: transform 0.3s ease-in-out;
+  -o-transition: transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
 
+.custom-forms form table {
+  width: 100%;
+}
 
+.custom-forms .cmpgn_social_links [class*="-share"] {
+  width: auto;
+}
 
-@media screen and (max-width: 600px){
-  table.pc_donation_option_list_vert tr{
-    width:100%;
-  }
-  table.pc_donation_option_list_vert tr td{
-    display:inline-block;
+#j_id0\3ASiteTemplate\3Apc_donation_form\3A button_panel_grid .labelColumn {
+  display: none;
+}
+
+#j_id0\3ASiteTemplate\3Apc_donation_form\3A ccButton {
+  width: 100%;
+  background-color: rgb(141, 198, 63) !important;
+  font-weight: 600 !important;
+  font-family: 'Gotham Black', 'Roboto', sans-serif !important;
+  letter-spacing: 0.1em;
+  border-radius: 4px;
+  -webkit-transition: 0.3s ease-in-out;
+  -o-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#j_id0\3ASiteTemplate\3Apc_donation_form\3A ccButton:hover{
+  opacity: .75;
+}
+
+.pc_donation_option_list_vert {
+  display: table !important;
+}
+
+@media screen and (max-width: 600px) {
+  table.pc_donation_option_list_vert tr {
     width: 100%;
   }
 
-  #pc_contact_mailing_and_shipping_fields, #pc_custom_fields{
-      width: 100%;
-      display: inline-block;
+  .bbutton {
+    margin-bottom: 3%;
+    width: 100%;
+    margin-top: 0;
+    float: left;
+  }
 
+  table.pc_donation_option_list_vert tr td {
+    display: inline-block;
+    width: 100%;
+  }
+
+  #pc_contact_mailing_and_shipping_fields, #pc_custom_fields {
+    width: 100%;
+    display: inline-block;
   }
 
   .custom-forms form table label {
@@ -132,118 +185,155 @@ table.pc_donation_option_list_vert tr{
     text-align: center;
   }
 
-  #pc_contact_info table tbody tr{
-    display: block;
+  #pc_recurring_donation_options {
+    text-align: center;
   }
 }
 
+@media screen and (max-width: 900px) {
+  #pc_contact_mailing_and_shipping_fields, #pc_custom_fields {
+    width: 100%;
+  }
+}
 
 /* donations landing page */
-#pc_recurring_donation_options { margin-top:5px;}
-#pc_donation_occurrences { margin-top:5px;}
-.pc_donation_option_list_horiz {display:inline-block;}
-.pc_donation_option_list_vert {display:inline;vertical-align:bottom;}
-.pc_donation_amount_horiz { vertical-align:6px;}
-.pc_donation_amount_vert { vertical-align:text-bottom;}
-.pc_donation_amount { width:75px;margin-right:4px; }
-.dn8n_donation_table label {padding-right:4px;}
+#pc_recurring_donation_options {
+  margin-top: 5px;
+}
 
+#pc_donation_occurrences {
+  margin-top: 5px;
+}
+
+.pc_donation_option_list_horiz {
+  display: inline-block;
+}
+
+.pc_donation_option_list_vert {
+  display: inline;
+  vertical-align: bottom;
+}
+
+.pc_donation_amount_horiz {
+  vertical-align: 6px;
+}
+
+.pc_donation_amount_vert {
+  vertical-align: text-bottom;
+}
+
+.pc_donation_amount {
+  width: 75px;
+  margin-right: 4px;
+}
+
+.dn8n_donation_table label {
+  padding-right: 4px;
+}
 
 .pc_custom_fields_table input[type="checkbox"] {
-    margin-right:4px;
-    }
+  margin-right: 4px;
+}
 
 .dn8n_progress_image_0_percent {
-  background-image:url('../images/fundraising-thermometer-blue-0.png');
+  background-image: url('../images/fundraising-thermometer-blue-0.png');
   background-size: 111px 421px;
   height: 421px;
   width: 111px;
 }
 
 .dn8n_progress_image_10_percent {
-  background-image:url('../images/fundraising-thermometer-blue-10.png');
+  background-image: url('../images/fundraising-thermometer-blue-10.png');
   background-size: 111px 421px;
   height: 421px;
   width: 111px;
 }
 
 .dn8n_progress_image_20_percent {
-  background-image:url('../images/fundraising-thermometer-blue-20.png');
+  background-image: url('../images/fundraising-thermometer-blue-20.png');
   background-size: 111px 421px;
   height: 421px;
   width: 111px;
 }
+
 .dn8n_progress_image_30_percent {
-  background-image:url('../images/fundraising-thermometer-blue-30.png');
+  background-image: url('../images/fundraising-thermometer-blue-30.png');
   background-size: 111px 421px;
   height: 421px;
   width: 111px;
 }
+
 .dn8n_progress_image_40_percent {
-  background-image:url('../images/fundraising-thermometer-blue-40.png');
+  background-image: url('../images/fundraising-thermometer-blue-40.png');
   background-size: 111px 421px;
   height: 421px;
   width: 111px;
 }
+
 .dn8n_progress_image_50_percent {
-  background-image:url('../images/fundraising-thermometer-blue-50.png');
+  background-image: url('../images/fundraising-thermometer-blue-50.png');
   background-size: 111px 421px;
   height: 421px;
   width: 111px;
 }
+
 .dn8n_progress_image_60_percent {
-  background-image:url('../images/fundraising-thermometer-blue-60.png');
+  background-image: url('../images/fundraising-thermometer-blue-60.png');
   background-size: 111px 421px;
   height: 421px;
   width: 111px;
 }
+
 .dn8n_progress_image_70_percent {
-  background-image:url('../images/fundraising-thermometer-blue-70.png');
+  background-image: url('../images/fundraising-thermometer-blue-70.png');
   background-size: 111px 421px;
   height: 421px;
   width: 111px;
 }
 
 .dn8n_progress_image_80_percent {
-  background-image:url('../images/fundraising-thermometer-blue-80.png');
+  background-image: url('../images/fundraising-thermometer-blue-80.png');
   background-size: 111px 421px;
   height: 421px;
   width: 111px;
 }
 
 .dn8n_progress_image_90_percent {
-  background-image:url('../images/fundraising-thermometer-blue-90.png');
+  background-image: url('../images/fundraising-thermometer-blue-90.png');
   background-size: 111px 421px;
   height: 421px;
   width: 111px;
 }
 
 .dn8n_progress_image_100_percent {
-  background-image:url('../images/fundraising-thermometer-blue-100.png');
+  background-image: url('../images/fundraising-thermometer-blue-100.png');
   background-size: 111px 421px;
   height: 421px;
   width: 111px;
 }
 
 .pc_page_content table {
-	border-collapse:collapse;
+  border-collapse: collapse;
 }
 
 #pc_donations_page .pc_button_panel_grid {
-	margin-top:20px;
+  margin-top: 20px;
 }
 
 /* Social Media Links - default orientation is inline */
 .dn8n_social_links {
-	height:22px;
-	margin-top:20px;
-	}
+  height: 22px;
+  margin-top: 20px;
+}
+
 .dn8n_social_links .facebook-share {
-	float:left;
+  float: left;
 }
+
 .dn8n_social_links .twitter-share {
-	float:left;
+  float: left;
 }
+
 .dn8n_social_links .linkedin-share {
-	float:left;
+  float: left;
 }
