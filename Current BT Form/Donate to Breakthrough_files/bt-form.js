@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var otherButton = document.querySelector("tr:nth-child(7) label");
   var otherInput = document.getElementById("j_id0:SiteTemplate:pc_donation_form:donationOptionsPicklistVert:6");
   var occurInput = document.getElementById("pc_donation_occurrences");
+  var occurInLabel = document.querySelector("#pc_donation_occurrences > .pc_short_input_field");
   var mobNav = document.getElementById("toggle-main-navigation");
   var top = document.getElementById("top");
   var credits = document.querySelector('.credits');
@@ -28,6 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
   top.appendChild(fragment);
   textarea.appendChild(policyfrag)
   otherInputLabel.setAttribute("placeholder", "Other amount");
+  occurInLabel.setAttribute("placeholder", "Number of months");
   otherInputLabel.className += " hideNow";
   occurInput.className += " hideNow";
   mobNav.className += " hideNow";
@@ -45,6 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
       otherInputLabel.className += " hideNow";
     }
   });
+  
 
   var checkbox = document.querySelector("#pc_recurring_donation_options > input");
 
